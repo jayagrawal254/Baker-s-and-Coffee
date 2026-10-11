@@ -1,0 +1,402 @@
+{
+  "restaurant": {
+    "name": "Baker's & Coffee",
+    "tagline": "Premium Products · Dubai Special",
+    "phone": "06239692984",
+    "address": "Shop No. 287, Opposite Flower Market, Phase 7, Sector 61, Sahibzada Ajit Singh Nagar, Punjab 160062",
+    "hours": "10:00 AM – 12:00 AM (All Days)",
+    "mapUrl": "https://maps.app.goo.gl/FLmocj8xcZitpwpSA",
+    "instagram": "#",
+    "facebook": "#"
+  },
+  "categories": [
+    {
+      "id": "at-a-glance",
+      "name": "At a Glance",
+      "emoji": "⭐",
+      "items": [
+        { "name": "Lemon Water", "price": 29 },
+        { "name": "Plain Ice Tea", "price": 39 },
+        { "name": "Adrak Chai", "price": 29 }
+      ]
+    },
+    {
+      "id": "mojitos",
+      "name": "Mojitos Refresher",
+      "emoji": "🍋",
+      "items": [
+        { "name": "Lemon Water", "price": 29 },
+        { "name": "Virgin Mojito", "price": 79 },
+        { "name": "Strawberry Mojito", "price": 79 },
+        { "name": "Green Apple Mojito", "price": 79 },
+        { "name": "Blue Lagoon Mojito", "price": 79 },
+        { "name": "Lemon Soda", "price": 59 },
+        { "name": "Ice Black Candy", "price": 59 },
+        { "name": "Classic Mojito", "price": 59 },
+        { "name": "Watermelon Mojito", "price": 69 },
+        { "name": "Raspberry Mojito", "price": 99 },
+        { "name": "Orange Mojito", "price": 79 },
+        { "name": "Blueberry Mojito", "price": 99 }
+      ]
+    },
+    {
+      "id": "ice-tea",
+      "name": "Ice Tea Refresher",
+      "emoji": "🍵",
+      "items": [
+        { "name": "Plain Ice Tea", "price": 39 },
+        { "name": "Lemon Ice Tea", "price": 59 },
+        { "name": "Peach Ice Tea", "price": 79 },
+        { "name": "Watermelon Ice Tea", "price": 79 },
+        { "name": "Blueberry Ice Tea", "price": 99 },
+        { "name": "Mango Ice Tea", "price": 99 }
+      ]
+    },
+    {
+      "id": "chai",
+      "name": "Chaa Di Drip",
+      "emoji": "☕",
+      "items": [
+        { "name": "Adrak Chai", "price": 29 },
+        { "name": "Rose Chai", "price": 29 },
+        { "name": "Gud Chai", "price": 29 },
+        { "name": "Elaichi Chai", "price": 29 },
+        { "name": "Masala Chai", "price": 29 },
+        { "name": "Tulsi Chai", "price": 29 },
+        { "name": "Saunf Chai", "price": 39 },
+        { "name": "Chocolate Chai", "price": 35 },
+        { "name": "Kesar Chai", "price": 39 },
+        { "name": "Green Chai", "price": 39 }
+      ]
+    },
+    {
+      "id": "hot-milk",
+      "name": "Hot Milk",
+      "emoji": "🥛",
+      "items": [
+        { "name": "Plain Milk", "price": 49 },
+        { "name": "Kesar Milk", "price": 99 },
+        { "name": "Elichi Milk", "price": 79 }
+      ]
+    },
+    {
+      "id": "hot-coffee",
+      "name": "Next Level Coffee",
+      "emoji": "☕",
+      "items": [
+        { "name": "Cappuccino", "price": 79 },
+        { "name": "Mocha Coffee", "price": 79 },
+        { "name": "Strong Coffee", "price": 79 },
+        { "name": "Americano", "price": 79 },
+        { "name": "Caramel Cappuccino", "price": 79 },
+        { "name": "Cafe Latte", "price": 79 },
+        { "name": "Espresso", "price": 79 },
+        { "name": "Mocha With Extra Espresso Shot", "price": 89 },
+        { "name": "Signature Hot Chocolate", "price": 99 }
+      ]
+    },
+    {
+      "id": "cold-coffee",
+      "name": "Cold Coffees",
+      "emoji": "🧊",
+      "items": [
+        { "name": "Classic Cold Coffee", "price": 59 },
+        { "name": "Choco Cold Coffee", "price": 79 },
+        { "name": "Irish Coffee", "price": 89 },
+        { "name": "Hazelnut Coffee", "price": 109 },
+        { "name": "Belgian Chocolate Coffee", "price": 119 },
+        { "name": "Nutella Coffee", "price": 129 },
+        { "name": "Peanut Better Coffee", "price": 129 },
+        { "name": "Lotus Biscoff Coffee", "price": 149 },
+        { "name": "Rose Cold Coffee", "price": 99 },
+        { "name": "Tira Misu Cold Coffee", "price": 99 },
+        { "name": "Oreo Coffee", "price": 99 },
+        { "name": "Salted Caramel Coffee", "price": 109 },
+        { "name": "Liquor Cold Coffee", "price": 109 },
+        { "name": "Spices Cinnamon Cold Coffee", "price": 139 },
+        { "name": "Pistachio Kunafa Cold Coffee", "price": 199 }
+      ]
+    },
+    {
+      "id": "shakes",
+      "name": "Shakes",
+      "emoji": "🥤",
+      "items": [
+        { "name": "Premium Vanilla Shake", "price": 59 },
+        { "name": "Premium Mango Shake", "price": 89 },
+        { "name": "Premium Chocolate Shake", "price": 79 },
+        { "name": "Premium Butterscotch Shake", "price": 79 },
+        { "name": "Premium Oreo Shake", "price": 99 },
+        { "name": "Premium Kitkat Shake", "price": 119 },
+        { "name": "Premium Dairy Milk Shake", "price": 99 },
+        { "name": "Premium Belgian Shake", "price": 119 },
+        { "name": "Premium Peanut Butter Shake", "price": 129 },
+        { "name": "Premium Pistachio Kunafa Dubai Special Shake", "price": 199 },
+        { "name": "Premium Lotus Bisscoff Shake", "price": 149 }
+      ]
+    },
+    {
+      "id": "frappuccino",
+      "name": "Frappuccino",
+      "emoji": "🥛",
+      "items": [
+        { "name": "Classic Frappe", "price": 79 },
+        { "name": "Iced Mocha", "price": 79 },
+        { "name": "Classic Frappe With Extra Espresso Shot", "price": 99 },
+        { "name": "Mocha With Extra Espresso Shot", "price": 99 },
+        { "name": "Hazelnut Frappe", "price": 99 },
+        { "name": "Caramel Frappe", "price": 99 },
+        { "name": "Cold Dark Frappe", "price": 99 },
+        { "name": "Crunchy Frappe", "price": 99 },
+        { "name": "Lotus Bisscoff Frappe", "price": 149 },
+        { "name": "Pistachio Frappe Kunafa Dubai Special", "price": 199 }
+      ]
+    },
+    {
+      "id": "maggi",
+      "name": "Maggie",
+      "emoji": "🍜",
+      "items": [
+        { "name": "Plain Maggi", "price": 49 },
+        { "name": "Double Masala Maggi", "price": 69 },
+        { "name": "Veggies Maggie", "price": 69 },
+        { "name": "Corn Cheese Maggie", "price": 79 },
+        { "name": "Tandoori Maggi", "price": 69 },
+        { "name": "Schezwan Maggie", "price": 79 },
+        { "name": "Paneer Maggie", "price": 79 },
+        { "name": "Special Maggi", "price": 99 }
+      ]
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "emoji": "🍕",
+      "items": [
+        { "name": "Kulhad Pizza", "price": 99 },
+        { "name": "Margarita Pizza", "price": 149 },
+        { "name": "Tandoori Paneer", "price": 149 },
+        { "name": "Makhani Pizza", "price": 169 },
+        { "name": "Onion Pizza", "price": 169 },
+        { "name": "Fresh Tomato Pizza", "price": 169 },
+        { "name": "Capsicum Pizza", "price": 169 },
+        { "name": "Sweet Corn Pizza", "price": 169 },
+        { "name": "Farmhouse Pizza", "price": 169 },
+        { "name": "Chilli Paneer Pizza", "price": 179 },
+        { "name": "BBQ Pizza", "price": 179 }
+      ]
+    },
+    {
+      "id": "burgers",
+      "name": "Boss Hamburger",
+      "emoji": "🍔",
+      "items": [
+        { "name": "Veg Aloo Tikki", "price": 39 },
+        { "name": "Veg Burger", "price": 49 },
+        { "name": "Veg Cheese Burger", "price": 69 },
+        { "name": "Veg Paneer Burger", "price": 79 },
+        { "name": "Veg Over Loaded Burger", "price": 119 },
+        { "name": "Veg Makhni Burger", "price": 79 },
+        { "name": "Veg Double Patty Burger", "price": 99 },
+        { "name": "Veg Mexican Burger", "price": 79 },
+        { "name": "Veg Crispy Burger", "price": 79 },
+        { "name": "Veg Maharaja Burger", "price": 119 }
+      ]
+    },
+    {
+      "id": "viral-food",
+      "name": "Viral Food & Dogs",
+      "emoji": "🌭",
+      "items": [
+        { "name": "American Style Chips Snacks", "price": 99 },
+        { "name": "Cheese Taco", "price": 99 },
+        { "name": "Corn Dog", "price": 89 },
+        { "name": "Potato Twister", "price": 99 },
+        { "name": "Hotdog", "price": 49 },
+        { "name": "Cheese Hotdog", "price": 69 },
+        { "name": "Cheese Ball 10 Piece", "price": 119 },
+        { "name": "Onion Ring 8 Piece", "price": 99 }
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "name": "American Style Sandwiches",
+      "emoji": "🥪",
+      "items": [
+        { "name": "Grilled Veg Sandwich", "price": 79 },
+        { "name": "Grilled Veg Corn Sandwich", "price": 99 },
+        { "name": "Grilled Cheese Corn Sandwich", "price": 109 },
+        { "name": "Grilled Special Paneer Sandwich", "price": 119 },
+        { "name": "Grilled Paneer Takatak Special", "price": 129 },
+        { "name": "Grilled Cheese Burst Sandwich", "price": 139 },
+        { "name": "Grilled Tandoori Special", "price": 139 },
+        { "name": "Grilled Club Sandwich Triple Layer", "price": 169 },
+        { "name": "Baked Pizza Sandwich", "price": 149 }
+      ]
+    },
+    {
+      "id": "toast",
+      "name": "Say Toast",
+      "emoji": "🍞",
+      "items": [
+        { "name": "Butter Toast", "price": 29 },
+        { "name": "Cheese Garlic Toast", "price": 69 },
+        { "name": "Garlic Toast", "price": 49 },
+        { "name": "Corn Toast", "price": 49 },
+        { "name": "Paneer Toast", "price": 49 }
+      ]
+    },
+    {
+      "id": "soups-chaat",
+      "name": "Soups & Chaat",
+      "emoji": "🍲",
+      "items": [
+        { "name": "Manchow Soup", "price": 59 },
+        { "name": "Tomato Soup", "price": 59 },
+        { "name": "Veg Corn Soup", "price": 59 },
+        { "name": "Sweet Corn", "price": 59 },
+        { "name": "Peanut Chaat", "price": 59 },
+        { "name": "Crispy Corn", "price": 99 }
+      ]
+    },
+    {
+      "id": "wraps-rolls",
+      "name": "Wraps & Rolls",
+      "emoji": "🌯",
+      "items": [
+        { "name": "Veg Wrap", "price": 69 },
+        { "name": "Veg Cheese Corn Wrap", "price": 99 },
+        { "name": "Veg Cheese Wrap", "price": 89 },
+        { "name": "Mexican Wrap", "price": 99 },
+        { "name": "Paneer Wrap", "price": 99 },
+        { "name": "Veg Roll", "price": 89 },
+        { "name": "Paneer Roll", "price": 99 },
+        { "name": "Tandoori Paneer Roll", "price": 99 },
+        { "name": "Makhani Roll", "price": 99 },
+        { "name": "American Style Wrap", "price": 119 }
+      ]
+    },
+    {
+      "id": "puff-patties",
+      "name": "Puff Patties",
+      "emoji": "🥐",
+      "items": [
+        { "name": "Grilled Aloo Patty", "price": 29 },
+        { "name": "Grilled Veg Patty", "price": 49 },
+        { "name": "Grilled Cheese Patty", "price": 49 },
+        { "name": "Grilled Cheese Corn", "price": 59 },
+        { "name": "Grilled Cheese Paneer", "price": 69 },
+        { "name": "Baked Pizza Patty", "price": 79 }
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": "Eat Pasta",
+      "emoji": "🍝",
+      "items": [
+        { "name": "Red Pasta", "price": 99 },
+        { "name": "White Pasta", "price": 99 },
+        { "name": "Mix Pasta", "price": 119 },
+        { "name": "Tandoori Pasta", "price": 119 },
+        { "name": "American Style", "price": 149 },
+        { "name": "Makhni Style", "price": 139 },
+        { "name": "Baked Cheese Pasta", "price": 179 }
+      ]
+    },
+    {
+      "id": "healthy",
+      "name": "Healthy Food & Sprouts",
+      "emoji": "🌱",
+      "items": [
+        { "name": "Desi Ghee Gud Churi", "price": 59 },
+        { "name": "Simple Sprouts", "price": 59 },
+        { "name": "Paneer Sprouts", "price": 79 },
+        { "name": "Peanut Sprouts", "price": 69 },
+        { "name": "Special Sprouts", "price": 99 }
+      ]
+    },
+    {
+      "id": "momos",
+      "name": "Momos (8 Pieces)",
+      "emoji": "🥟",
+      "items": [
+        { "name": "Veg Momos", "price": 69 },
+        { "name": "Paneer Momos", "price": 89 },
+        { "name": "Kurkure Momos", "price": 99 },
+        { "name": "Cheese Momos", "price": 119 },
+        { "name": "Baked Momos", "price": 119 }
+      ]
+    },
+    {
+      "id": "waffles",
+      "name": "Waffles",
+      "emoji": "🧇",
+      "items": [
+        { "name": "Chocolate Waffle", "price": 99 },
+        { "name": "Nutella Waffle", "price": 99 },
+        { "name": "Lotus Bisscoff Waffle", "price": 99 },
+        { "name": "Belgian Chocolate Waffle", "price": 99 },
+        { "name": "Pistachio Kunafa Dubai Special Waffle", "price": 149 },
+        { "name": "Kit Kat Chocolate Waffle", "price": 119 },
+        { "name": "Oreo Chocolate Waffle", "price": 119 }
+      ]
+    },
+    {
+      "id": "cakes",
+      "name": "Cakes",
+      "emoji": "🎂",
+      "items": [
+        { "name": "Bento Cake", "price": 99 },
+        { "name": "Royal Praline", "price": 499 },
+        { "name": "Chocolate Truffle", "price": 399 },
+        { "name": "Coconut Fresh Fruit", "price": 399 },
+        { "name": "Honey Caramel", "price": 349 },
+        { "name": "Pineapple", "price": 299 },
+        { "name": "German Black Forest", "price": 349 },
+        { "name": "Belgian Chocolate", "price": 499 },
+        { "name": "Pistachio Chocolate Dubai Special", "price": 699 }
+      ]
+    },
+    {
+      "id": "cheesecake-pastry",
+      "name": "Cheesecake & Pastry",
+      "emoji": "🍰",
+      "items": [
+        { "name": "Lotus Bisscoff Cheese Slice", "price": 99 },
+        { "name": "Nutella Cheese Slice", "price": 99 },
+        { "name": "Hazelnut Cheese Slice", "price": 99 },
+        { "name": "Chocolate Cheese Slice", "price": 99 },
+        { "name": "Blueberry Cheese Slice", "price": 99 },
+        { "name": "Strawberry Cheese Slice", "price": 99 },
+        { "name": "Honey Caramal Cheese Slice", "price": 99 },
+        { "name": "Pistachio Kunafa Cheese Slice", "price": 119 },
+        { "name": "German Black Forest Cheese Slice", "price": 119 },
+        { "name": "Belgian Chocolate Cheese Slice", "price": 99 },
+        { "name": "Truffle Pastry", "price": 69 },
+        { "name": "Belgian Mousse Pastry", "price": 69 },
+        { "name": "Royal Praline", "price": 79 },
+        { "name": "Pistachio Kunafa Pastry Dubai Special", "price": 99 }
+      ]
+    },
+    {
+      "id": "mousse",
+      "name": "Mousse",
+      "emoji": "🍮",
+      "items": [
+        { "name": "Belgian Mousse", "price": 69 },
+        { "name": "Lotus Bisscoff Mousse", "price": 69 },
+        { "name": "Pistachio Kunafa Mousse Dubai Special", "price": 99 }
+      ]
+    },
+    {
+      "id": "brownie",
+      "name": "Brownie",
+      "emoji": "🍫",
+      "items": [
+        { "name": "Chocolate Brownie", "price": 69 },
+        { "name": "Nutella Brownie", "price": 99 },
+        { "name": "Belgian Chocolate Brownie", "price": 99 },
+        { "name": "Pistachio Kunafa Chocolate Brownie Dubai Special", "price": 129 }
+      ]
+    }
+  ]
+}

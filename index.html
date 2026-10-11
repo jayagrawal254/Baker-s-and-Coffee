@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#2C1A0E" />
+
+  <!-- SEO -->
+  <title>Baker's & Coffee — Menu</title>
+  <meta id="meta-description" name="description" content="Full digital menu for Baker's & Coffee, Mohali. Premium coffee, chai, food &amp; desserts." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://bakersandcoffee.in/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Baker's & Coffee — Menu" />
+  <meta property="og:description" content="Premium coffee, chai, food &amp; desserts. Shop No. 287, Phase 7, Sector 61, Mohali." />
+  <meta property="og:type" content="website" />
+
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════════
+       SITE HEADER
+  ════════════════════════════════════════════ -->
+  <header class="site-header" role="banner">
+    <img
+      class="header-logo"
+      src="logo.png"
+      alt="Baker's &amp; Coffee logo — a man holding a coffee cup"
+      width="100"
+      height="100"
+      fetchpriority="high"
+      onerror="this.style.display='none'"
+    />
+    <h1 class="header-name">Baker's &amp; Coffee</h1>
+    <p class="header-tagline">Premium Products &nbsp;·&nbsp; Dubai Special</p>
+    <div class="header-divider" aria-hidden="true">
+      <span class="header-divider-icon">☕</span>
+    </div>
+  </header>
+
+  <!-- ════════════════════════════════════════════
+       SEARCH
+  ════════════════════════════════════════════ -->
+  <div class="search-section" role="search" aria-label="Search the menu">
+    <div class="search-wrap">
+      <span class="search-icon" aria-hidden="true">🔍</span>
+      <label class="visually-hidden" for="search-input">Search menu items</label>
+      <input
+        id="search-input"
+        type="search"
+        autocomplete="off"
+        autocorrect="off"
+        autocapitalize="off"
+        spellcheck="false"
+        placeholder="Search dishes, drinks…"
+        aria-label="Search menu items"
+      />
+      <button id="search-clear" aria-label="Clear search" title="Clear search">✕</button>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════
+       CATEGORY NAVIGATION (sticky)
+  ════════════════════════════════════════════ -->
+  <div id="category-nav-wrapper" class="category-nav-wrapper">
+    <nav
+      id="category-nav"
+      class="category-nav"
+      aria-label="Menu categories"
+    ></nav>
+  </div>
+
+  <!-- ════════════════════════════════════════════
+       MAIN MENU CONTENT
+  ════════════════════════════════════════════ -->
+  <main id="main-content" class="main-content" aria-label="Menu">
+
+    <!-- Search results info bar -->
+    <div id="search-results-info" role="status" aria-live="polite"></div>
+
+    <!-- No results message -->
+    <div id="no-results" role="status" aria-live="polite">
+      <div class="no-results-icon" aria-hidden="true">🔍</div>
+      <p>No items found. Try a different search.</p>
+    </div>
+
+    <!-- Sections are injected here by script.js -->
+
+  </main>
+
+  <!-- ════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <p class="footer-logo-name" id="footer-name">Baker's &amp; Coffee</p>
+    <p class="footer-tagline" id="footer-tagline">Premium Products · Dubai Special</p>
+
+    <div class="footer-grid">
+      <div class="footer-item">
+        <span class="footer-icon" aria-hidden="true">📍</span>
+        <address class="footer-text" id="footer-address" style="font-style:normal;">
+          Shop No. 287, Opposite Flower Market,<br>
+          Phase 7, Sector 61, Sahibzada Ajit Singh Nagar,<br>
+          Punjab 160062
+        </address>
+      </div>
+
+      <div class="footer-item">
+        <span class="footer-icon" aria-hidden="true">🕙</span>
+        <p class="footer-text" id="footer-hours">10:00 AM – 12:00 AM (All Days)</p>
+      </div>
+
+      <div class="footer-item">
+        <span class="footer-icon" aria-hidden="true">📞</span>
+        <p class="footer-text">
+          <a id="footer-phone" href="tel:06239692984" class="footer-link" aria-label="Call Baker's and Coffee">06239692984</a>
+        </p>
+      </div>
+
+      <div class="footer-item">
+        <span class="footer-icon" aria-hidden="true">🗺️</span>
+        <p class="footer-text">
+          <a
+            id="footer-map"
+            href="https://maps.app.goo.gl/FLmocj8xcZitpwpSA"
+            class="footer-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open Baker's and Coffee on Google Maps"
+          >
+            Open in Google Maps ↗
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-divider" aria-hidden="true"></div>
+
+    <nav class="footer-social" aria-label="Social media links">
+      <a
+        id="social-instagram"
+        href="#"
+        class="social-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Baker's and Coffee on Instagram"
+      >
+        <span aria-hidden="true">📸</span> Instagram
+      </a>
+      <a
+        id="social-facebook"
+        href="#"
+        class="social-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Baker's and Coffee on Facebook"
+      >
+        <span aria-hidden="true">👍</span> Facebook
+      </a>
+    </nav>
+
+    <p class="footer-copy">&copy; 2025 Baker's &amp; Coffee. All rights reserved.</p>
+  </footer>
+
+  <!-- Back-to-top -->
+  <button id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
