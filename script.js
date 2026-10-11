@@ -132,11 +132,15 @@
     searchClear.classList.toggle('visible', query.length > 0);
 
     if (!query) {
-      // Reset: show all sections, restore plain item names
+      // Reset: show all sections and all items, restore plain item names
       sectionEls.forEach(sec => sec.classList.remove('hidden'));
+      main.querySelectorAll('.menu-item').forEach(item => {
+        item.style.display = '';
+      });
       main.querySelectorAll('.item-name').forEach(el => {
         el.innerHTML = el.dataset.plain || el.textContent;
       });
+      noResults.classList.remove('visible');
       resultsInfo.classList.remove('visible');
       return;
     }
